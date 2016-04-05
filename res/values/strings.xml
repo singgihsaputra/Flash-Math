@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Flash Math</string>
+   <string name="main_title">Flash Math</string>
+   <string name="highscore_label">High Score</string>
+   <string name="new_game_label">New Game</string>
+   <string name="about_label">About</string>
+   <string name="exit_label">Exit</string>
+   
+
+   
+   <string name="settings_label">Settings</string>
+   <string name="settings_title">Sudoku settings</string>
+   <string name="settings_shortcut">s</string>
+   <string name="music_title">Music</string>
+   <string name="music_summary">Play background music</string>
+   <string name="hints_title">Hints</string>
+   <string name="hints_summary">Show hints during play</string>
+   
+
+   
+   <string name="new_game_title">Difficulty</string>
+   <string name="easy_label">Easy</string>
+   <string name="medium_label">Medium</string>
+   <string name="hard_label">Hard</string>
+   
+
+   
+   <string name="game_title">Game</string>
+   <string name="no_moves_label">No moves</string>
+   <string name="keypad_title">Keypad</string>
+   
+   
+   
+   <string name="about_title">Kelompok 5 - Flash Math</string>
+   <string name="about_text"><b>Pengembangan Aplikasi Perangkat Bergerak (PAPB) kelas F.</b>
+       <br></br>Flash Math merupakan sebuah game edukasi perhitungan matematika yang
+       mengajak pengguna untuk dapat berhitung dengan cepat.
+       Dalam game terdapat box-box random yang akan dipilih secara acak, yang akan
+       memunculkan angka atau operator secara random. Dan kemudian akan tersedia 4 pilihan
+       jawaban sebagai opsi dari perhitungan box-box yang telah dipilih sebelumnya.
+       Tersedia beberapa stage dalam game untuk dapat memperoleh nilai score tertinggi.
+       <br></br>Didamel Marang :
+       <br></br>- MUCHTAR PRAWIRA S.	105090600111035
+       <br></br>- SEPTIAN ADI WIJAYA	115060807111045
+	   <br></br>- SINGGIH ROCHMAD S	 	115090600111006
+	   <br></br>- WAHYU SUGIH P			115090600111041
+	   <br></br>- APILADOSI P			115090601111001
+	</string>
+	
+   <string name="highscore_title">High Score Flash Math</string>
+   <string name="highscore_text"><center>100</center>
+	</string>
+   
+</resources>

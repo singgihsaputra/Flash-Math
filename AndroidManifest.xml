@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+package="org.ace.game" 
+android:versionCode="1" 
+android:versionName="1.0">
+<application android:icon="@drawable/flashmath" android:label="@string/app_name">
+<activity android:name=".FlashMath" android:label="@string/app_name" android:theme="@style/Theme.Title" >
+ <intent-filter>
+  <action android:name="android.intent.action.MAIN" /> 
+  <category android:name="android.intent.category.LAUNCHER" /> 
+  </intent-filter>
+  </activity>
+  
+<activity android:name=".Play" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/Theme.Title">
+           <intent-filter>
+           <action android:name="android.intent.action.VIEW" />
+           <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+ </activity>
+
+  <activity android:name=".About" android:label="@string/about_title" android:theme="@android:style/Theme.Dialog" />
+  <activity android:name=".Highscore" android:label="@string/highscore_title"  android:theme="@style/Theme.Transparent"/>
+  <activity android:name=".Prefs" android:label="@string/settings_title" /> 
+  <activity android:name=".Game" android:label="@string/game_title"  android:theme="@style/Theme.Title"/> 
+  </application>
+  <uses-sdk android:minSdkVersion="8" /> 
+  </manifest>
